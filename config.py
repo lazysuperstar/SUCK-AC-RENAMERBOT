@@ -8,7 +8,9 @@ class Config(object):
     API_ID    = os.environ.get("API_ID", "")
     API_HASH  = os.environ.get("API_HASH", "")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
-   
+    
+    PORT = os.environ.get("PORT", "")
+
     # database config
     DB_NAME = os.environ.get("DB_NAME","Cluster0")     
     DB_URL  = os.environ.get("DB_URL","")
